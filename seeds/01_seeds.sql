@@ -5,7 +5,7 @@ VALUES ('Neil Young', 'neil_young@email.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4E
 ('Nelly Furtado', 'nelly_furtado@email.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
 ('Jann Arden', 'jan_arden@email.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
-INSERT INTO properties (owner_id, title, description, cover_photo_url, thumbnail_photo_url, cost_per_night, parking_spaces, num_of_baths, num_of_beds, country, street, city, province, postal_code, active)
+INSERT INTO properties (owner_id, title, description, cover_photo_url, thumbnail_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active)
 VALUES (1, 'Neils House', 'This is a description This is a description This is a description This is a description', 'fake photo url', 'another fake photo url', 350, 2, 3, 4, 'Canada', '1 street', 'Quebec City', 'QC', '02020', true),
 (1, 'Neils Other House', 'This is a description This is a description This is a description This is a description', 'fake photo url', 'another fake photo url', 650, 3, 5, 6, 'Canada', '2 street', 'Toronto', 'ON', '2uo0i0', true),
 (4, 'Nellys House', 'This is a description This is a description This is a description This is a description', 'fake photo url', 'another fake photo url', 450, 1, 2, 2, 'Canada', '3 street', 'Vancouver', 'BC', '9f98r8', true),
