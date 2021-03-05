@@ -192,23 +192,3 @@ const addProperty = function(property) {
   });
 }
 exports.addProperty = addProperty;
-
-
-// INSERT INTO reservations (guest_id, property_id, start_date, end_date) 
-// VALUES (1, 1, '2018-09-11', '2018-09-26'),
-// {
-//   owner_id: int,
-//   title: string,
-//   description: string,
-//   thumbnail_photo_url: string,
-//   cover_photo_url: string,
-//   cost_per_night: string,
-//   street: string,
-//   city: string,
-//   province: string,
-//   post_code: string,
-//   country: string,
-//   parking_spaces: int,
-//   number_of_bathrooms: int,
-//   number_of_bedrooms: int
-// }
